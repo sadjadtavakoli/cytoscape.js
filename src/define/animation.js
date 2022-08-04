@@ -1,7 +1,7 @@
-import * as util from '../util';
-import Animation from '../animation';
-import * as math from '../math';
-import * as is from '../is';
+import * as util from '../util/index.js';
+import Animation from '../animation.js';
+import * as math from '../math.js';
+import * as is from '../is.js';
 
 let define = {
 

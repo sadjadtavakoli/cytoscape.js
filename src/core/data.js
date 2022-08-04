@@ -1,4 +1,4 @@
-import define from '../define';
+import define from '../define/index.js';
 
 const fn = {
   data: define.data( {

@@ -1,7 +1,7 @@
-import define from '../../define';
-import * as is from '../../is';
-import * as math from '../../math';
-import * as util from '../../util';
+import define from '../../define/index.js';
+import * as is from '../../is.js';
+import * as math from '../../math.js';
+import * as util from '../../util/index.js';
 
 let fn, elesfn;
 

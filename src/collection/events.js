@@ -1,7 +1,7 @@
-import Emitter from '../emitter';
-import define from '../define';
-import * as is from '../is';
-import Selector from '../selector';
+import Emitter from '../emitter.js';
+import define from '../define/index.js';
+import * as is from '../is.js';
+import Selector from '../selector/index.js';
 
 let emitterOptions = {
   qualifierCompare: function( selector1, selector2 ){

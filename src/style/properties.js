@@ -1,5 +1,5 @@
-import * as util from '../util';
-import * as is from '../is';
+import * as util from '../util/index.js';
+import * as is from '../is.js';
 
 const styfn = {};
 

@@ -1,9 +1,9 @@
-import * as is from '../is';
-import * as util from '../util';
+import * as is from '../is.js';
+import * as util from '../util/index.js';
 
-import parse from './parse';
-import matching from './matching';
-import Type from './type';
+import parse from './parse.js';
+import matching from './matching.js';
+import Type from './type.js';
 
 let Selector = function( selector ){
   this.inputText = selector;

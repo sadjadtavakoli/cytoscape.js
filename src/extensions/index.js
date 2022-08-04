@@ -1,5 +1,5 @@
-import layout from './layout';
-import renderer from './renderer';
+import layout from './layout/index.js';
+import renderer from './renderer/index.js';
 
 export default [
   {

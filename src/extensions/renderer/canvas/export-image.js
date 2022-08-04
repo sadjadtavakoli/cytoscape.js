@@ -1,7 +1,7 @@
 /* global atob, ArrayBuffer, Uint8Array, Blob */
 
-import * as is from '../../../is';
-import Promise from '../../../promise';
+import * as is from '../../../is.js';
+import Promise from '../../../promise.js';
 
 var CRp = {};
 

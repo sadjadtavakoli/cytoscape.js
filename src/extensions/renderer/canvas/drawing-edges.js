@@ -1,6 +1,6 @@
 /* global Path2D */
 
-import * as util from '../../../util';
+import * as util from '../../../util/index.js';
 
 let CRp = {};
 

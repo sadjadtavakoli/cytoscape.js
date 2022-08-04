@@ -1,5 +1,5 @@
-import * as util from '../util';
-import Selector from '../selector';
+import * as util from '../util/index.js';
+import Selector from '../selector/index.js';
 
 let styfn = {};
 

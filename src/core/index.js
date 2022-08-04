@@ -1,20 +1,20 @@
-import window from '../window';
-import * as util from '../util';
-import Collection from '../collection';
-import * as is from '../is';
-import Promise from '../promise';
+import window from '../window.js';
+import * as util from '../util/index.js';
+import Collection from '../collection/index.js';
+import * as is from '../is.js';
+import Promise from '../promise.js';
 
-import addRemove from './add-remove';
-import animation from './animation';
-import events from './events';
-import exportFormat from './export';
-import layout from './layout';
-import notification from './notification';
-import renderer from './renderer';
-import search from './search';
-import style from './style';
-import viewport from './viewport';
-import data from './data';
+import addRemove from './add-remove.js';
+import animation from './animation/index.js';
+import events from './events.js';
+import layout from './layout.js';
+import renderer from './renderer.js';
+import style from './style.js';
+import data from './data.js';
+import exportFormat from './export.js';
+import notification from './notification.js';
+import search from './search.js';
+import viewport from './viewport.js';
 
 let Core = function( opts ){
   let cy = this;

@@ -1,5 +1,5 @@
-import * as math from '../../../../math';
-import * as is from '../../../../is';
+import * as math from '../../../../math.js';
+import * as is from '../../../../is.js';
 
 let BRp = {};
 

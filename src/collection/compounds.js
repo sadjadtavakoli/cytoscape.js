@@ -1,5 +1,5 @@
-import Set from '../set';
-import cache from './cache-traversal-call';
+import Set from '../set.js';
+import cache from './cache-traversal-call.js';
 
 let elesfn = ({
   parent: function( selector ){

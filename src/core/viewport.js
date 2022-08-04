@@ -1,6 +1,6 @@
-import * as is from '../is';
-import window from '../window';
-import * as math from '../math';
+import * as is from '../is.js';
+import window from '../window.js';
+import * as math from '../math.js';
 
 let defaultSelectionType = 'single';
 

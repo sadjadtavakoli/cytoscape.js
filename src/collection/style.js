@@ -1,5 +1,5 @@
-import * as is from '../is';
-import * as util from '../util';
+import * as is from '../is.js';
+import * as util from '../util/index.js';
 
 function styleCache( key, fn, ele ){
   var _p = ele._private;

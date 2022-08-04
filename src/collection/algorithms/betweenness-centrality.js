@@ -1,5 +1,5 @@
-import Heap from '../../heap';
-import * as util from '../../util';
+import Heap from '../../heap.js';
+import * as util from '../../util/index.js';
 
 const defaults = util.defaults({
   weight: null,

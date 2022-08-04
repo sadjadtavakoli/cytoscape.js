@@ -6,22 +6,22 @@ Modifications tracked on Github.
 
 /* global OffscreenCanvas */
 
-import * as util from '../../../util';
-import * as is from '../../../is';
-import { makeBoundingBox } from '../../../math';
-import ElementTextureCache from './ele-texture-cache';
-import LayeredTextureCache from './layered-texture-cache';
+import * as util from '../../../util/index.js';
+import * as is from '../../../is.js';
+import { makeBoundingBox } from '../../../math.js';
+import ElementTextureCache from './ele-texture-cache.js';
+import LayeredTextureCache from './layered-texture-cache.js';
 
-import arrowShapes from './arrow-shapes';
-import drawingElements from './drawing-elements';
-import drawingEdges from './drawing-edges';
-import drawingImages from './drawing-images';
-import drawingLabelText from './drawing-label-text';
-import drawingNodes from './drawing-nodes';
-import drawingRedraw from './drawing-redraw';
-import drawingShapes from './drawing-shapes';
-import exportImage from './export-image';
-import nodeShapes from './node-shapes';
+import arrowShapes from './arrow-shapes.js';
+import drawingElements from './drawing-elements.js';
+import drawingEdges from './drawing-edges.js';
+import drawingImages from './drawing-images.js';
+import drawingLabelText from './drawing-label-text.js';
+import drawingNodes from './drawing-nodes.js';
+import drawingRedraw from './drawing-redraw.js';
+import drawingShapes from './drawing-shapes.js';
+import exportImage from './export-image.js';
+import nodeShapes from './node-shapes.js';
 
 var CR = CanvasRenderer;
 var CRp = CanvasRenderer.prototype;

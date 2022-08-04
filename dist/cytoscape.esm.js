@@ -20,11 +20,11 @@
  * SOFTWARE.
  */
 
-import util from 'lodash.debounce';
-import Heap from 'heap';
-import get from 'lodash.get';
-import set from 'lodash.set';
-import toPath from 'lodash.topath';
+import util from 'lodash.debounce/index.js';
+import Heap from 'heap/index.js';
+import get from 'lodash.get/index.js';
+import set from 'lodash.set/index.js';
+import toPath from 'lodash.topath/index.js';
 
 function _typeof(obj) {
   if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {

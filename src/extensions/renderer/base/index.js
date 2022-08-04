@@ -1,13 +1,13 @@
-import * as util from '../../../util';
-import * as is from '../../../is';
-import window from '../../../window';
+import * as util from '../../../util/index.js';
+import * as is from '../../../is.js';
+import window from '../../../window.js';
 
-import arrowShapes from './arrow-shapes';
-import coordEleMath from './coord-ele-math';
-import images from './images';
-import loadListeners from './load-listeners';
-import nodeShapes from './node-shapes';
-import redraw from './redraw';
+import arrowShapes from './arrow-shapes.js';
+import coordEleMath from './coord-ele-math/index.js';
+import images from './images.js';
+import loadListeners from './load-listeners.js';
+import nodeShapes from './node-shapes.js';
+import redraw from './redraw.js';
 
 var BaseRenderer = function( options ){ this.init( options ); };
 var BR = BaseRenderer;

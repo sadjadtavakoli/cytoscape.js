@@ -1,25 +1,25 @@
-import * as util from '../util';
-import * as is from '../is';
-import Map from '../map';
-import Set from '../set';
+import * as util from '../util/index.js';
+import * as is from '../is.js';
+import Map from '../map.js';
+import Set from '../set.js';
 
-import Element from './element';
-import algorithms from './algorithms';
-import animation from './animation';
-import classNames from './class';
-import comparators from './comparators';
-import compounds from './compounds';
-import data from './data';
-import degree from './degree';
-import dimensions from './dimensions';
-import events from './events';
-import filter from  './filter';
-import group from './group';
-import iteration from './iteration';
-import layout from './layout';
-import style from './style';
-import switchFunctions from './switch-functions';
-import traversing from './traversing';
+import Element from './element.js';
+import algorithms from './algorithms/index.js';
+import animation from './animation.js';
+import classNames from './class.js';
+import comparators from './comparators.js';
+import compounds from './compounds.js';
+import data from './data.js';
+import degree from './degree.js';
+import dimensions from './dimensions/index.js';
+import events from './events.js';
+import filter from  './filter.js';
+import group from './group.js';
+import iteration from './iteration.js';
+import layout from './layout.js';
+import style from './style.js';
+import switchFunctions from './switch-functions.js';
+import traversing from './traversing.js';
 
 // represents a set of nodes, edges, or both together
 let Collection = function( cy, elements, unique = false ){

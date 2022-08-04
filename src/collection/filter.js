@@ -1,5 +1,5 @@
-import * as is from '../is';
-import Selector from '../selector';
+import * as is from '../is.js';
+import Selector from '../selector/index.js';
 
 let elesfn = ({
   nodes: function( selector ){

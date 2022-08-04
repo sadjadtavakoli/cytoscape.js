@@ -1,4 +1,4 @@
-import define from '../define';
+import define from '../define/index.js';
 
 let elesfn = ({
   animate: define.animate(),

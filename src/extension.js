@@ -1,10 +1,10 @@
-import * as util from'./util';
-import define from './define';
-import Collection from './collection';
-import Core from './core';
-import incExts from './extensions';
-import * as is from './is';
-import Emitter from './emitter';
+import * as util from'./util/index.js';
+import define from './define/index.js';
+import Collection from './collection/index.js';
+import Core from './core/index.js';
+import incExts from './extensions/index.js';
+import * as is from './is.js';
+import Emitter from './emitter.js';
 
 // registered extensions to cytoscape, indexed by name
 let extensions = {};
@@ -21,7 +21,7 @@ function setExtension( type, name, registrant ){
   };
 
   if( type === 'core' ){
-    if( Core.prototype[ name ] ){
+    if( Core.prototype[ name ] ){w
       return overrideErr( name );
     } else {
       Core.prototype[ name ] = registrant;

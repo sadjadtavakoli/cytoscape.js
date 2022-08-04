@@ -1,5 +1,5 @@
-import * as util from '../../../util';
-import * as math from '../../../math';
+import * as util from '../../../util/index.js';
+import * as math from '../../../math.js';
 
 var CRp = {};
 

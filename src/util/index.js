@@ -1,17 +1,17 @@
 /*global console */
 
-import * as is from '../is';
-import * as strings from './strings';
-import * as regex from './regex';
-import * as sort from './sort';
-import { memoize } from './memoize';
-import { extend } from './extend';
+import * as is from '../is.js';
+import * as strings from './strings.js';
+import * as regex from './regex.js';
+import * as sort from './sort.js';
+import { memoize } from './memoize.js';
+import { extend } from './extend.js';
 
-export * from './colors';
-export * from './maps';
-export * from './strings';
-export * from './timing';
-export * from './hash';
+export * from './colors.js';
+export * from './maps.js';
+export * from './strings.js';
+export * from './timing.js';
+export * from './hash.js';
 
 export { strings, extend, extend as assign, memoize, regex, sort };
 

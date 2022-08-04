@@ -1,5 +1,5 @@
-import * as is from '../is';
-import { extend } from './extend';
+import * as is from '../is.js';
+import { extend } from './extend.js';
 
   // has anything been set in the map
 export const mapEmpty = map => {

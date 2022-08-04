@@ -1,6 +1,6 @@
-import Map from '../../../map';
-import Set from'../../../set';
-import * as util from '../../../util';
+import Map from '../../../map.js';
+import Set from'../../../set.js';
+import * as util from '../../../util/index.js';
 
 // Allows lookups for (ele, lvl) => cache.
 // Uses keys so elements may share the same cache.

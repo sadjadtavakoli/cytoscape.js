@@ -1,8 +1,8 @@
-import * as util from '../../../util';
-import * as math from '../../../math';
-import Heap from '../../../heap';
-import * as is from '../../../is';
-import defs from './texture-cache-defs';
+import * as util from '../../../util/index.js';
+import * as math from '../../../math.js';
+import Heap from '../../../heap.js';
+import * as is from '../../../is.js';
+import defs from './texture-cache-defs.js';
 
 var defNumLayers = 1; // default number of layers to use
 var minLvl = -4; // when scaling smaller than that we don't need to re-render

@@ -1,4 +1,4 @@
-import { error } from '../../util';
+import { error } from '../../util/index.js';
 
 const sqrt2 = Math.sqrt(2);
 

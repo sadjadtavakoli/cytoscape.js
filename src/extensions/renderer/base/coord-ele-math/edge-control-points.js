@@ -1,7 +1,7 @@
-import * as math from '../../../../math';
-import * as is from '../../../../is';
-import * as util from '../../../../util';
-import Map from '../../../../map';
+import * as math from '../../../../math.js';
+import * as is from '../../../../is.js';
+import * as util from '../../../../util/index.js';
+import Map from '../../../../map.js';
 
 let BRp = {};
 

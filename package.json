@@ -2,6 +2,7 @@
   "name": "cytoscape",
   "version": "3.23.0-unstable",
   "license": "MIT",
+  "type": "module",
   "description": "Graph theory (a.k.a. network) library for analysis and visualisation",
   "homepage": "http://js.cytoscape.org",
   "repository": {

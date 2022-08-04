@@ -1,6 +1,6 @@
-import * as util from '../util';
-import * as is from '../is';
-import Set from '../set';
+import * as util from '../util/index.js';
+import * as is from '../is.js';
+import Set from '../set.js';
 
 // represents a node or an edge
 let Element = function( cy, params, restore = true ){

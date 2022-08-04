@@ -1,6 +1,6 @@
-import * as is from '../../is';
-import { assignBoundingBox, expandBoundingBoxSides,  clearBoundingBox, expandBoundingBox, makeBoundingBox, copyBoundingBox } from '../../math';
-import { defaults, getPrefixedProperty, hashIntsArray } from '../../util';
+import * as is from '../../is.js';
+import { assignBoundingBox, expandBoundingBoxSides,  clearBoundingBox, expandBoundingBox, makeBoundingBox, copyBoundingBox } from '../../math.js';
+import { defaults, getPrefixedProperty, hashIntsArray } from '../../util/index.js';
 
 let fn, elesfn;
 

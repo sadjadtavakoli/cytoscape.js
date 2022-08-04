@@ -1,6 +1,6 @@
-import * as util from '../../util';
-import * as math from '../../math';
-import * as is from '../../is';
+import * as util from '../../util/index.js';
+import * as math from '../../math.js';
+import * as is from '../../is.js';
 
 let defaults = {
   fit: true, // whether to fit the viewport to the graph

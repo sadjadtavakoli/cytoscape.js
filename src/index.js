@@ -1,9 +1,9 @@
-import * as is from './is';
-import Core from './core';
-import extension from './extension';
-import Stylesheet from './stylesheet';
-import version from './version';
-import { warnings } from './util';
+import * as is from './is.js';
+import Core from './core/index.js';
+import extension from './extension.js';
+import Stylesheet from './stylesheet.js';
+import version from './version.js';
+import { warnings } from './util/index.js';
 
 let cytoscape = function( options ){
   // if no options specified, use default

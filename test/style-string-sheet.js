@@ -1,5 +1,5 @@
-const expect = require('chai').expect;
-const cytoscape = require('../src/test.js');
+import {expect} from 'chai';
+import cytoscape from '../src/test.js'
 
 describe('String-sheet parsing', function(){
   let cy;

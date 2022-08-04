@@ -1,5 +1,5 @@
-import { defaults } from '../../util';
-import { inPlaceSumNormalize } from '../../math';
+import { defaults } from '../../util/index.js';
+import { inPlaceSumNormalize } from '../../math.js';
 
 const pageRankDefaults = defaults({
   dampingFactor: 0.8,

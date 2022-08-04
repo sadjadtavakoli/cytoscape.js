@@ -8,9 +8,9 @@ http://dl.acm.org/citation.cfm?id=1498047
 Modifications tracked on Github.
 */
 
-import * as util from '../../util';
-import * as math from '../../math';
-import * as is from '../../is';
+import * as util from '../../util/index.js';
+import * as math from '../../math.js';
+import * as is from '../../is.js';
 
 var DEBUG;
 

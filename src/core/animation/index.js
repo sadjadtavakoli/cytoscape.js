@@ -1,6 +1,6 @@
-import define from '../../define';
-import * as util from '../../util';
-import stepAll from './step-all';
+import define from '../../define/index.js';
+import * as util from '../../util/index.js';
+import stepAll from './step-all.js';
 
 let corefn = ({
 

@@ -1,6 +1,6 @@
-import * as is from '../is' ;
-import zIndexSort from './zsort' ;
-import * as util from '../util';
+import * as is from '../is.js' ;
+import zIndexSort from './zsort.js' ;
+import * as util from '../util/index.js';
 
 let elesfn = ({
   forEach: function( fn, thisArg ){

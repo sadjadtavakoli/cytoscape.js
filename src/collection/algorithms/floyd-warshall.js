@@ -1,5 +1,5 @@
-import * as is from '../../is';
-import { defaults } from '../../util';
+import * as is from '../../is.js';
+import { defaults } from '../../util/index.js';
 
 const floydWarshallDefaults = defaults({
   weight: edge => 1,

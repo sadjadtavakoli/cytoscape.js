@@ -1,6 +1,6 @@
-import window from '../../../../window';
-import * as math from '../../../../math';
-import * as util from '../../../../util';
+import window from '../../../../window.js';
+import * as math from '../../../../math.js';
+import * as util from '../../../../util/index.js';
 
 var BRp = {};
 
